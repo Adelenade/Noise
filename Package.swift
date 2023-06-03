@@ -15,7 +15,8 @@ let package = Package(
             targets: ["Noise"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/heestand-xyz/PixelKit", .exact("3.0.0")),
+        .package(url: "https://github.com/heestand-xyz/PixelKit", from: "3.0.0"),
+
     ],
     targets: [
         .target(
